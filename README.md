@@ -1,6 +1,4 @@
 Fling Pads
 ============
 
-256 blocks is the limit!
-
-In development...
+A small plugin that boosts player horizontally upon walking on pressure plate.
