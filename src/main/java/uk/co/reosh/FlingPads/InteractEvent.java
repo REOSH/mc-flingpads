@@ -11,6 +11,8 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class InteractEvent implements Listener {
 
+	public static int boostStrength = 5;
+
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onInteract(PlayerInteractEvent event) {
 		final Block b = event.getClickedBlock();
@@ -20,14 +22,15 @@ public class InteractEvent implements Listener {
 				Player p = event.getPlayer();
 				p.setVelocity(p.getVelocity().add(
 						p.getEyeLocation().getDirection().normalize()
-								.multiply(10).setY(0.5)));
+								.multiply(boostStrength)
+									.setY(0))); // Setting Y to 0 will move player only horizontally.
 			}
 		}
 	}
 
 	// Check if material is a pressure plate
+	// NOTE: Iron and golden plates are working only with items.
 	public static boolean isPressurePlate(Material mat) {
-		return (mat == Material.STONE_PLATE) || (mat == Material.WOOD_PLATE)
-				|| (mat == Material.GOLD_PLATE) || (mat == Material.IRON_PLATE);
+		return (mat == Material.STONE_PLATE) || (mat == Material.WOOD_PLATE);
 	}
 }

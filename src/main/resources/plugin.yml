@@ -1,4 +1,4 @@
 name: FlingPads
 main: uk.co.reosh.FlingPads.FlingPads
 version: ${project.version}
-description: Flings you when you stand on a pressure plate.
+description: A small plugin that boosts player horizontally upon walking on pressure plate.
