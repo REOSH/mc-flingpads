@@ -5,6 +5,8 @@
 	<artifactId>FlingPads</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<name>FlingPads</name>
+	<url>https://github.com/REOSH/mc-flingpads</url>
+	<description>A small plugin that boosts player horizontally upon walking on pressure plate.</description>
 	<packaging>jar</packaging>
 	<repositories>
 		<repository>
@@ -35,6 +37,4 @@
 			</resource>
 		</resources>
 	</build>
-	<url>https://github.com/REOSH/mc-flingpads</url>
-	<description>A small plugin that boosts player horizontally upon walking on pressure plate.</description>
 </project>
