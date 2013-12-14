@@ -1,4 +1,4 @@
 name: FlingPads
-main: com.nebulanetworkmc.lobby.flingpads.FlingPads
-version: 1.0
-description: Flings you when you stand on a presurePlate
+main: uk.co.reosh.FlingPads.FlingPads
+version: ${project.version}
+description: Flings you when you stand on a pressure plate.
