@@ -23,13 +23,10 @@ public class InteractEvent implements Listener {
 				p.setVelocity(p.getVelocity().add(
 						p.getEyeLocation().getDirection().normalize()
 								.multiply(boostStrength)
-									.setY(0))); // Setting Y to 0 will move player only horizontally.
+									.setY(0)));
 			}
 		}
 	}
-
-	// Check if material is a pressure plate
-	// NOTE: Iron and golden plates are working only with items.
 	public static boolean isPressurePlate(Material mat) {
 		return (mat == Material.STONE_PLATE) || (mat == Material.WOOD_PLATE);
 	}
