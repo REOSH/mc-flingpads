@@ -11,7 +11,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 public class InteractEvent implements Listener {
 
-	public static int boostStrength = 5;
+	public static int boostStrength = FlingPads.getConfig().getInt("boost-strength");
 
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onInteract(PlayerInteractEvent event) {
