@@ -20,10 +20,7 @@ public class InteractEvent implements Listener {
 		if (event.getAction().equals(Action.PHYSICAL)) {
 			if (isPressurePlate(b.getType())) {
 				Player p = event.getPlayer();
-				p.setVelocity(p.getVelocity().add(
-						p.getEyeLocation().getDirection().normalize()
-								.multiply(boostStrength)
-									.setY(0)));
+				p.setVelocity(p.getVelocity().add(p.getEyeLocation().getDirection().normalize().multiply(boostStrength).setY(0)));
 			}
 		}
 	}
