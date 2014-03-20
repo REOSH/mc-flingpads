@@ -12,6 +12,6 @@ public class FlingPads extends JavaPlugin {
 		this.saveDefaultConfig();
 		this.getConfig().options().copyDefaults(true);
 		
-		 public InteractEvent.boostStrength = this.getConfig().getInt("boost-strength");
+		 InteractEvent.boostStrength = this.getConfig().getInt("boost-strength");
 	}
 }
