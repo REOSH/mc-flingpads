@@ -1,4 +1,5 @@
 name: FlingPads
 main: uk.co.reosh.FlingPads.FlingPads
+autors: WickedSkipper & Cross
 version: ${project.version}
 description: A small plugin that boosts player horizontally upon walking on pressure plate.
