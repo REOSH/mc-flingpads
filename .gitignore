@@ -1,10 +1,13 @@
-*.class
-
 # Package Files #
 *.jar
 *.war
 *.ear
 
+# IDE Files (Eclipse's .project and .classpath included) #
+/.idea
 /.settings
+*.iml
+
+# Compiled #
 /target
 /bin

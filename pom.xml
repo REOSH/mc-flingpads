@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.reosh</groupId>
 	<artifactId>FlingPads</artifactId>
-	<version>1.0-beta.0</version>
+	<version>1.1.2-BETA</version>
 	<name>FlingPads</name>
 	<url>https://github.com/REOSH/mc-flingpads</url>
 	<description>A small plugin that boosts player horizontally upon walking on pressure plate.</description>
@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.7.2-R0.1-SNAPSHOT</version>
+			<version>1.7.2-R0.3</version>
 		</dependency>
 	</dependencies>
 	<build>
